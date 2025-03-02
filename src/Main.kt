@@ -19,7 +19,7 @@ fun main() {
     println()
 
     // Create a list to store monkey names
-    val monkeys = null  // FIXME!
+    val monkeys = mutableListOf<String>()  // FIXME!
 
     // Add in some test monkeys
     monkeys.add("Dave")
